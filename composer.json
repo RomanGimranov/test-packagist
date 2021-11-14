@@ -1,0 +1,20 @@
+{
+    "name": "RGimranov/test-package",
+    "description": "HW #6 Package creation for Otus",
+    "homepage": "https://github.com/RomanGimranov/test-packagist",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Roman Gimranov",
+            "email": "kefirr09@gmail.com",
+        }    
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src"
+        }
+    }
+}
